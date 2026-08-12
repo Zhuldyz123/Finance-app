@@ -1,0 +1,6 @@
+{
+  "name": "Учет Финансов",
+  "description": "Приложение для управления личными финансами, учета доходов и расходов, бюджетирования, финансового анализа и ИИ-рекомендаций.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
