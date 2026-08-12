@@ -1,25 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Учет финансов</title>
-  <link rel="manifest" href="/manifest.json?v=4" />
-
-    <meta name="theme-color" content="#0d1117" />
-    <meta name="apple-mobile-web-app-capable" content="yes" /></head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-        <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js');
-        });
-      }
-    </script>
-
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Учет финансов</title>
+  <link rel="manifest" href="/manifest.json?v=5" />
+  <meta name="theme-color" content="#0d1117" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</body>
 </html>
-
